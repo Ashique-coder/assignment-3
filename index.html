@@ -36,6 +36,7 @@
 <body class="font-poppins">
     <!-- Header section -->
     <header>
+        <!-- Navbar -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -74,7 +75,9 @@
             </div>
         </div>
 
-        <div class="hero mx-30">
+        <!-- Banner Section -->
+
+        <div class="hero">
             <!-- min-h-screen 
               bg-base-200
               -->
@@ -98,10 +101,10 @@
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main class="bg-base-200">
         <!-- Thoughtful Design -->
-        <div class="hero  mt-20 mx-30">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="hero mt-10 mx-30">
+            <div class="hero-content flex-col mt-5 lg:flex-row-reverse">
                 <img src="./assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
                     <h1 class="text-4xl font-bold">We design thoughtful, liveable spaces</h1>
@@ -110,7 +113,7 @@
                         modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                     <div class="gap-5 space-y-3">
-                        <div class="card card-side bg-base-100 shadow-xl">
+                        <div class="card card-side bg-base-100 shadow-lg">
                             <figure>
                                 <img class="ml-2" src="./assets/commercial.png" alt="Movie" />
                             </figure>
@@ -119,7 +122,7 @@
                                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
                             </div>
                         </div>
-                        <div class="card card-side bg-base-100 shadow-xl">
+                        <div class="card card-side bg-base-100 shadow-lg">
                             <figure>
                                 <img class="ml-2" src="./assets/residential.png" alt="Movie" />
                             </figure>
@@ -135,61 +138,136 @@
         </div>
 
         <!-- Work Process -->
-        <div>
-            <div class="hero  ">
-                <!-- min-h-screen
-                 bg-base-200 -->
-                <div class="hero-content text-center">
-                  <div class="max-w-md">
+        <!-- <div> -->
+        <div class="hero lg:w-full pt-10 mt-30  lg:mt-auto lg:pt-10">
+            <!-- pt-10 mt-30 lg:mt-auto lg:pt-10 -->
+            <div class="hero-content mb-10 text-center">
+                <div class="max-w-md lg:max-w-6xl">
                     <h1 class="text-5xl font-bold">Our Works Process</h1>
-                    <p class="py-6 text-gray-600">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    <p class="py-6 text-gray-600 ">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.
                     </p>
-                        <div class="py-6 px-10 gap-y-40 lg:flex flex-row justify-center gap-10">
-                            <!-- Card-1 -->
-                            <div class="card bg-primary  text-black bg-purple-400 text-primary-content w-96 lg:w-110">
-                                <div class="card-body">
-                                    <img class="w-20" src="./assets/concept.png" alt="">
-                                    <h2 class="card-title font-bold">Concept</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                                </div>
+
+
+                    <div class="grid grid-cols-1 gap-5 lg:grid-cols-4 lg:gap-5 text-center">
+
+                        <!-- card-1 -->
+
+                        <div class="card bg-pink-200 max-w-xl shadow-md ">
+                            <!-- shadow-xl
+                             lg:w-96 -->
+                            <div class="card-body text-left">
+                                <img class="w-20" src="./assets/concept.png" alt="">
+                                <h2 class="card-title">Card title!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
                             </div>
-                            <!-- Card-2 -->
-                            <div class="card bg-primary  text-black bg-yellow-200 text-primary-content w-96">
-                                <div class="card-body">
-                                    <img class="w-20" src="./assets/flow-chart.png" alt="">
-                                    <h2 class="card-title font-bold">Design Process</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                                </div>
-                            </div>
-                            <!-- Card-3 -->
-                            <div class="card bg-primary  text-black bg-green-200 text-primary-content w-96">
-                                <div class="card-body">
-                                    <img class="w-20" src="./assets/vision.png" alt="">
-                                    <h2 class="card-title font-bold">Supervision</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                                </div>
-                            </div>
-                            <!-- Card-4 -->
-                            <div class="card bg-primary  text-black bg-blue-200 text-primary-content w-96">
-                                <div class="card-body">
-                                    <img class="w-20" src="./assets/budget-planning.png" alt="">
-                                    <h2 class="card-title font-bold">Budget Planning</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern..</p>
-                                </div>
-                            </div>
-                
                         </div>
-                    <button class="btn btn-primary">Get Started</button>
-                  </div>
+
+                        <!-- card-2 -->
+
+                        <div class="card  bg-yellow-100 max-w-xl shadow-md ">
+                            <!-- shadow-xl
+                             lg:w-96 -->
+                            <div class="card-body text-left">
+                                <img class="w-20" src="./assets/flow-chart.png" alt="">
+                                <h2 class="card-title font-bold">Design Process</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+
+                        <div class="card  bg-green-200 max-w-xl  shadow-md">
+                            <!-- shadow-xl
+                             lg:w-96 -->
+                            <div class="card-body text-left">
+                                <img class="w-20" src="./assets/vision.png" alt="">
+                                <h2 class="card-title font-bold">Supervision</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+
+                        <!-- card-4 -->
+
+                        <div class="card d bg-blue-200 max-w-xl shadow-md ">
+                            <!-- shadow-xl
+                             lg:w-96 -->
+                            <div class="card-body text-left">
+                                <img class="w-20" src="./assets/budget-planning.png" alt="">
+                                <h2 class="card-title font-bold">Budget Planning</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern..</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
-        
+        <!-- </div> -->
+
     </main>
 
     <!-- Footer Section -->
-    <footer></footer>
+    <footer>
+        <div class="hero bg-gray-20 lg:w-full pt-10 mt-30  lg:mt-auto lg:pt-10">
+
+            <!-- class=" grid grid-cols-1 bg-base-200 min-h-screen lg:w-full  lg:mt-20 lg:pt-10 " -->
+            <!-- class="hero lg:w-full pt-10 mt-30  lg:mt-auto lg:pt-10" -->
+            <!-- pt-10 mt-30  -->
+            <div class="hero-content flex-col lg:flex-col">
+                <div class="text-center lg:text-center">
+                    <h1 class="text-5xl font-bold">Our Latest Portfolio</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body grid lg:grid-cols-2">
+                        <!-- <div>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                    </div> -->
+                        <div class="lg:grid-cols-2">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">First Name</span>
+                                </label>
+                                <input type="text" placeholder="First Name" class="input input-bordered w-full max-w-xs" />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Last Name</span>
+                                </label>
+                                <input type="text" placeholder="Last Name" class="input input-bordered w-full max-w-xs" />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Email</span>
+                                </label>
+                                <input type="email" placeholder="email" class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Phone Number</span>
+                                </label>
+                                <input type="password" placeholder="Phone Number" class="input input-bordered" required />
+                                <label class="label">
+                            </div>
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">First Name</span>
+                            </label>
+                            <input type="text" placeholder="First Name" class="input input-bordered w-full max-w-xs" />
+                          </div>
+                        <div class="form-control mt-6">
+                            <button class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
