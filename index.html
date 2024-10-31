@@ -1,24 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Tailwind CDN -->
+
     <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- DaisyUI CDN -->
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <title>Assets</title>
+
+    <style>
+        .font-poppins {
+            font-family: "Poppins", serif;
+
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="font-poppins">
     <!-- Header section -->
-    <header></header>
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl"> <i class="fa-light fa-arrow-up-right"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+
+                <a href=""><i class="fa-regular fa-magnifying-glass"></i></a>
+                <i class="fa-light fa-cart-shopping"></i>
+                <button class="btn btn-success"><i class="fa-light fa-arrow-up-right"></i> Success</button>
+            </div>
+        </div>
+
+        <div class="hero mx-30">
+            <!-- min-h-screen 
+              bg-base-200
+              -->
+            <div class="hero-content flex-col">
+                <!-- lg:flex-row-reverse -->
+                <img src="./assets/banner.png" class="max-w-full rounded-lg" />
+                <div class="w-full text-center">
+                    <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class="btn btn-primary"> View Details</button>
+
+                    <!-- <i class="fa-light fa-arrow-up-right"></i> -->
+
+                </div>
+            </div>
+        </div>
+
+    </header>
 
     <!-- Main Section -->
-    <main></main>
+    <main>
+        <!-- Thoughtful Design -->
+        <div class="hero  mt-20 mx-30">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="./assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-4xl font-bold">We design thoughtful, liveable spaces</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <div class="gap-5 space-y-3">
+                        <div class="card card-side bg-base-100 shadow-xl">
+                            <figure>
+                                <img class="ml-2" src="./assets/commercial.png" alt="Movie" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                        <div class="card card-side bg-base-100 shadow-xl">
+                            <figure>
+                                <img class="ml-2" src="./assets/residential.png" alt="Movie" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Residential</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Work Process -->
+        <div>
+            <div class="hero  ">
+                <!-- min-h-screen
+                 bg-base-200 -->
+                <div class="hero-content text-center">
+                  <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Our Works Process</h1>
+                    <p class="py-6 text-gray-600">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                        <div class="py-6 px-10 gap-y-40 lg:flex flex-row justify-center gap-10">
+                            <!-- Card-1 -->
+                            <div class="card bg-primary  text-black bg-purple-400 text-primary-content w-96 lg:w-110">
+                                <div class="card-body">
+                                    <img class="w-20" src="./assets/concept.png" alt="">
+                                    <h2 class="card-title font-bold">Concept</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <!-- Card-2 -->
+                            <div class="card bg-primary  text-black bg-yellow-200 text-primary-content w-96">
+                                <div class="card-body">
+                                    <img class="w-20" src="./assets/flow-chart.png" alt="">
+                                    <h2 class="card-title font-bold">Design Process</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <!-- Card-3 -->
+                            <div class="card bg-primary  text-black bg-green-200 text-primary-content w-96">
+                                <div class="card-body">
+                                    <img class="w-20" src="./assets/vision.png" alt="">
+                                    <h2 class="card-title font-bold">Supervision</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <!-- Card-4 -->
+                            <div class="card bg-primary  text-black bg-blue-200 text-primary-content w-96">
+                                <div class="card-body">
+                                    <img class="w-20" src="./assets/budget-planning.png" alt="">
+                                    <h2 class="card-title font-bold">Budget Planning</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern..</p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+    </main>
 
     <!-- Footer Section -->
     <footer></footer>
